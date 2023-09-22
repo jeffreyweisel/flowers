@@ -1,0 +1,178 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "commonName": "Tulip",
+            "color": "Orange"
+        },
+        {
+            "id": 2,
+            "commonName": "Rose",
+            "color": "Red"
+        },
+        {
+            "id": 3,
+            "commonName": "Lily",
+            "color": "White"
+        },
+        {
+            "id": 4,
+            "commonName": "Carnation",
+            "color": "Pink"
+        },
+        {
+            "id": 5,
+            "commonName": "Iris",
+            "color": "Purple"
+        }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Lotus Floral Shop",
+            "city": "Nashville",
+            "state": "Tennessee",
+            "address": "123 West Street",
+            "distributorId": 3
+        },
+        {
+            "id": 2,
+            "name": "Reema Floral",
+            "city": "Franklin",
+            "state": "Tennessee",
+            "address": "456 East Street",
+            "distributorId": 1
+        },
+        {
+            "id": 3,
+            "name": "Petals and Stems",
+            "city": "Brentwood",
+            "state": "Tennessee",
+            "address": "789 North Street",
+            "distributorId": 2
+        },
+        {
+            "id": 4,
+            "name": "The Bloom House",
+            "city": "Smyrna",
+            "state": "Tennessee",
+            "address": "1011 South Street",
+            "distributorId": 1
+        },
+        {
+            "id": 5,
+            "name": "Accent Flowers",
+            "city": "Antioch",
+            "state": "Tennessee",
+            "address": "1213 North East Street",
+            "distributorId": 2
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "The Main Distributor",
+            "city": "Brentwood",
+            "state": "Tennessee",
+            "address": "456 West Street"
+        },
+        {
+            "id": 2,
+            "name": "The Worst Distributor",
+            "city": "Franklin",
+            "state": "Tennessee",
+            "address": "123 South Street"
+        },
+        {
+            "id": 3,
+            "name": "The Alright Distributor",
+            "city": "Murfreesboro",
+            "state": "Tennessee",
+            "address": "789 South Street"
+        }
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "The Garden Stop"
+        },
+        {
+            "id": 2,
+            "name": "Fast's Greenery"
+        },
+        {
+            "id": 3,
+            "name": "A Greener Way, LLC"
+        },
+        {
+            "id": 4,
+            "name": "Southbranch Nursery"
+        },
+        {
+            "id": 5,
+            "name": "Hewitt Garden and Design Center"
+        }
+       ],
+    "nurseryFlowers": [
+        {
+            "id": 1,
+            "flowerId": 1,
+            "nurseryId": 1
+        },
+        {
+            "id": 2,
+            "flowerId": 1,
+            "nurseryId": 2
+        },
+        {
+            "id": 3,
+            "flowerId": 2,
+            "nurseryId": 3
+        },
+        {
+            "id": 4,
+            "flowerId": 2,
+            "nurseryId": 4
+        },
+        {
+            "id": 5,
+            "flowerId": 3,
+            "nurseryId": 5
+        },
+        {
+            "id": 6,
+            "flowerId": 3,
+            "nurseryId": 1
+        },
+        {
+            "id": 7,
+            "flowerId": 4,
+            "nurseryId": 2
+        },
+        {
+            "id": 8,
+            "flowerId": 4,
+            "nurseryId": 3
+        },
+        {
+            "id": 9,
+            "flowerId": 4,
+            "nurseryId": 1
+        },
+        {
+            "id": 10,
+            "flowerId": 5,
+            "nurseryId": 5
+        },
+        {
+            "id": 11,
+            "flowerId": 5,
+            "nurseryId": 3
+        },
+        {
+            "id": 12,
+            "flowerId": 4,
+            "nurseryId": 4
+        }
+    ]    
+}

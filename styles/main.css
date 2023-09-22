@@ -1,0 +1,16 @@
+.choices {
+    flex-basis: 24%;
+    margin: 0 2rem;
+    border: 1px dashed dodgerblue;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+}
+
+.flowers {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
